@@ -20,12 +20,14 @@ table {
     border-collapse: collapse;
     width: 100%;
     color: #8F9779;
+    border: none;
   }
   
   td, th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
+    border: none;
   }
   
   tr:nth-child(even) {
@@ -72,7 +74,13 @@ background-color: #45a049;
 border-radius: 5px;
 background-color: #f2f2f2;
 padding: 10px;
+margin: 0em 15em 0em ;
 }
+@media only screen and (max-width: 1200px) {
+    .container {
+      margin: 0em;
+    }
+  }
 
 .container2 {
     border-radius: 5px;
